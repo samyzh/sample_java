@@ -1,0 +1,52 @@
+[Box:  - ::com.java.jikexueyuan.pizzastore]
+X=225
+Y=40
+
+[Box:  - ::com.java.jikexueyuan.pizzastore.absfactory]
+X=840
+Y=40
+
+[Box:  - ::com.java.jikexueyuan.pizzastore.method]
+X=430
+Y=40
+
+[Box:  - ::com.java.jikexueyuan.pizzastore.pizza]
+X=635
+Y=40
+
+[Box:  - ::com.java.jikexueyuan.pizzastore.simplefactory]
+X=20
+Y=40
+
+[Diagram:]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
+[Box: ::com.java.jikexueyuan.pizzastore.absfactory - ::com.java.jikexueyuan.pizzastore.absfactory::AbsFactory]
+X=225
+Y=187
+
+[Box: ::com.java.jikexueyuan.pizzastore.absfactory - ::com.java.jikexueyuan.pizzastore.absfactory::LDFactory]
+X=430
+Y=40
+
+[Box: ::com.java.jikexueyuan.pizzastore.absfactory - ::com.java.jikexueyuan.pizzastore.absfactory::NYFactory]
+X=225
+Y=40
+
+[Box: ::com.java.jikexueyuan.pizzastore.absfactory - ::com.java.jikexueyuan.pizzastore.absfactory::OrderPizza]
+X=20
+Y=40
+
+[Box: ::com.java.jikexueyuan.pizzastore.absfactory - ::com.java.jikexueyuan.pizzastore.absfactory::PizzaStroe]
+X=20
+Y=187
+
+[Diagram: ::com.java.jikexueyuan.pizzastore.absfactory]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=1
+
