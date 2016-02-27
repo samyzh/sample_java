@@ -12,5 +12,6 @@
 	<classpathentry kind="lib" path="libs/gson-2.2.1.jar"/>
 	<classpathentry kind="lib" path="libs/httpclient-4.5.1.jar"/>
 	<classpathentry kind="lib" path="libs/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="libs/sunjce_provider.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
