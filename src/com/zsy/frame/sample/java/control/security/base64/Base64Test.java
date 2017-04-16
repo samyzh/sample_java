@@ -7,7 +7,8 @@ import sun.misc.BASE64Encoder;
 
 public class Base64Test {
 
-	public static final String src = "samy security base64";
+//	public static final String src = "samy security base64";
+	public static final String src = "[B@12bc6874";
 
 	public static void main(String[] args) {
 		jdkBase64();

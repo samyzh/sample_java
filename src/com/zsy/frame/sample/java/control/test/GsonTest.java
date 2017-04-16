@@ -20,13 +20,21 @@ public class GsonTest {
 //		params.put("urls", templist);
 //		System.out.println(params.toString());
 		
-		Student student = new Student();
-		student.id = 1;
+//		Student student = new Student();
+//		student.id = 1;
 //		student.name="samy";
-//		  Gson gson = new Gson();
-		 Gson gson = new GsonBuilder().serializeNulls().create();
-          String content = gson.toJson(student);
-          System.out.println(content);
+		  Gson gson = new Gson();
+//		 Gson gson = new GsonBuilder().serializeNulls().create();
+//          String content = gson.toJson(student);
+//          System.out.println(content);
+//		String  tempJson = "{'name':samy,'age':20}";
+		String  tempJson = "{"
+				+ "'isFrom':true,"
+				+ "'huiyuan':18123710721"
+				+ "}";
+		System.out.println(tempJson);
+		
+//		String tempPhone = gson.fromJson(tempJson);
 	}
 
 	
